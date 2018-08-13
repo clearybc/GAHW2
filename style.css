@@ -1,0 +1,83 @@
+body {
+	display: flex;
+}
+
+body > div {
+	width: 50%;
+}
+
+#categories {
+	color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+#categories > button {
+	background-color: transparent;
+	border: none;
+	color: black;
+	font-size: 24px;
+	font-family: 'Space Mono', monospace;
+	outline: none;
+	margin-left: 40px;
+}
+
+
+/* from stack overflow  */
+
+#data-items ul{
+	padding-left: 0;                    /*  added  */
+  }
+
+  #data-items p{
+	font-family: 'Space Mono', monospace;
+  }
+
+  #data-items li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  #data-items li:last-child{
+	margin: 0;
+  }
+  #data-items a{
+	color:black;
+	text-decoration: none;
+  }
+  #data-items a:hover{
+	color: yellow;
+  }
+  #data-items p{
+	color:black;
+	line-height: 1.4;
+  }
+  #data-items .fa{
+	color: black;
+	font-size: 1rem;
+	line-height: 30px;
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-weight: 900;
+  }
+
+/* cart */
+
+#data-cart {
+	background-color: #f8f8f8;
+	min-height: 100vh;
+	text-align: center;
+}
+
+#data-cart ul {
+	list-style: none;
+	padding: 0;
+}
+
+#data-cart li {
+	color:green;
+	font-size: 21px;
+	margin-bottom: 16px;
+}

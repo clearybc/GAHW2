@@ -1,0 +1,60 @@
+/* edited from codepen  */
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #FC3164;
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+  }
+  
+  .background--on {
+    background: #3dbf87;
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+  }
+  
+  .toggle-body {
+    width: 7rem;
+    height: 4rem;
+    position: absolute;
+    top: calc(50% - 4rem / 2);
+    left: calc(50% - 7rem / 2);
+    background: white;
+    border-radius: 2rem;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+  }
+  
+  .toggle-body--on {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+  }
+  
+  .toggle-btn {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: calc(50% - 2rem / 2);
+    left: calc(27% - 2rem / 2);
+    background: white;
+    border-radius: 2rem;
+    background: #FC3164;
+    cursor: pointer;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    -webkit-transform-origin: 130% 115%;
+            transform-origin: 130% 115%;
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+  }
+  
+  .toggle-btn--on {
+    transition: 1.5s cubic-bezier(0.68, -0.15, 0.265, 1.35);
+    -webkit-transform: rotate(-357deg);
+            transform: rotate(-357deg);
+    background: #3dbf87;
+    -webkit-transform-origin: 130% 150%;
+            transform-origin: 130% 150%;
+  }
+  
