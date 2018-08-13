@@ -7,19 +7,19 @@ var dataCart = [];
 
 var social = [
 	{	name: 'Facebook',
-		icon: "fa fa-user-circle",
+		icon: 'fa fa-user-circle',
 		price: 10
 	},
 	{	name: 'Instagram',
-		icon: "fa fa-address-book-o",
+		icon: 'fa fa-address-book-o',
 		price: 10
 	},
 	{	name: 'Twitter',
-		icon: "fa fa-address-card",
+		icon: 'fa fa-address-card',
 		price: 10
 	}, 
 	{	name: 'LinkedIn', 
-		icon: "fa fa-certificate", 
+		icon: 'fa fa-certificate', 
 		price: 10
 	}
 ];
@@ -29,11 +29,11 @@ var social = [
 
 var health = [
 	{	name: 'Apple Health', 
-		icon: "fa fa-sun-o", 
+		icon: 'fa fa-sun-o', 
 		price: 10
 	},
 	{	name: 'Fitbit', 
-		icon: "fa fa-bar-chart",
+		icon: 'fa fa-bar-chart',
 		price: 10
 	},
 ];
@@ -43,11 +43,11 @@ var health = [
 
 var search = [
 	{	name: 'Google', 
-		icon: "fa fa-search",
+		icon: 'fa fa-search',
 		price: 10
 	},
 	{	name: 'Yahoo', 
-		icon: "fa fa-desktop",
+		icon: 'fa fa-desktop',
 		price: 10
 	},
 ];
@@ -76,9 +76,9 @@ document.getElementById('data-items').addEventListener('click', function() {
 
 	// create a variable for the selction to pass to cart function 
 	// currently not working 
-	var itemName = getElementById("data-item > p").text;
+	var itemName = getElementById('data-item > p').text;
 
-	console.log("item clicked");
+	console.log('item clicked');
 
 	// pass variable to cart function 
 	addItemToDataCart(itemName);
