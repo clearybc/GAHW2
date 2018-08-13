@@ -66,7 +66,7 @@ body > div {
 /* cart */
 
 #data-cart {
-	background-color: #f8f8f8;
+	background-color:grey;
 	min-height: 100vh;
 	text-align: center;
 }
