@@ -1,3 +1,5 @@
+
+
 var dataCart = [];
 
 // Afrrays of categories and their images 
